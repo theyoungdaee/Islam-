@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1830"><link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./assets/icons/icon.svg"><link rel="stylesheet" href="./css/style.css?v=3">
+<title>Player — Quran Listen</title>
+</head>
+<body>
+<header class="topbar compact"><a class="back" href="index.html">‹</a><div><p class="eyebrow">NOW PLAYING</p><h1>Player</h1></div><a class="icon-btn" href="listen.html">☷</a></header>
+<main class="page player-page">
+  <div class="cover"><div class="cover-symbol">۞</div></div>
+  <span class="badge">MY RECITATION</span>
+  <h2 id="playerArabic" class="arabic-title">الفاتحة</h2>
+  <h3 id="playerTitle">Al-Fatihah</h3>
+  <p id="playerStatus" class="muted">Ready to play</p>
+  <input id="seek" class="range" type="range" min="0" max="100" value="0" aria-label="Audio position">
+  <div class="time-row"><span id="currentTime">00:00</span><span id="duration">00:00</span></div>
+  <div class="player-controls">
+    <button id="repeatBtn" class="control-btn" aria-label="Repeat">↻</button>
+    <button id="prevBtn" class="control-btn" aria-label="Previous">◀</button>
+    <button id="mainPlay" class="main-play" aria-label="Play">▶</button>
+    <button id="nextBtn" class="control-btn" aria-label="Next">▶</button>
+    <button id="moreBtn" class="control-btn" aria-label="More">⋮</button>
+  </div>
+  <div class="player-actions"><button id="favoritePlayer" class="secondary-btn">♡ Favorite</button><button id="cachePlayer" class="secondary-btn">↓ Cache</button></div>
+  <audio id="audio" preload="metadata"></audio>
+</main>
+<nav class="bottom-nav"><a href="index.html"><span>⌂</span>Home</a><a href="listen.html"><span>♪</span>Listen</a><a class="active player-nav" href="player.html"><span>▶</span>Player</a><a href="tools.html"><span>✦</span>Tools</a></nav>
+<script src="./js/app.js"></script><script src="./js/quran.js"></script><script src="./js/audio.js"></script>
+</body></html>

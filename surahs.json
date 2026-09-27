@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "availableCount": 10,
+  "totalSurahs": 114,
+  "surahs": [
+    {"id":1,"number":1,"arabicName":"الفاتحة","transliteration":"Al-Fatihah","englishName":"The Opening","revelationType":"Meccan","verseCount":7,"audio":"assets/audio/001-al-fatihah.mp3","verses":[]},
+    {"id":18,"number":18,"arabicName":"الكهف","transliteration":"Al-Kahf","englishName":"The Cave","revelationType":"Meccan","verseCount":110,"audio":"assets/audio/018-al-kahf.mp3","verses":[]},
+    {"id":32,"number":32,"arabicName":"السجدة","transliteration":"As-Sajdah","englishName":"The Prostration","revelationType":"Meccan","verseCount":30,"audio":"assets/audio/032-as-sajdah.mp3","verses":[]},
+    {"id":36,"number":36,"arabicName":"يس","transliteration":"Ya-Sin","englishName":"Ya-Sin","revelationType":"Meccan","verseCount":83,"audio":"assets/audio/036-ya-sin.mp3","verses":[]},
+    {"id":55,"number":55,"arabicName":"الرحمن","transliteration":"Ar-Rahman","englishName":"The Most Merciful","revelationType":"Medinan","verseCount":78,"audio":"assets/audio/055-ar-rahman.mp3","verses":[]},
+    {"id":56,"number":56,"arabicName":"الواقعة","transliteration":"Al-Waqi'ah","englishName":"The Inevitable","revelationType":"Meccan","verseCount":96,"audio":"assets/audio/056-al-waqiah.mp3","verses":[]},
+    {"id":67,"number":67,"arabicName":"الملك","transliteration":"Al-Mulk","englishName":"The Sovereignty","revelationType":"Meccan","verseCount":30,"audio":"assets/audio/067-al-mulk.mp3","verses":[]},
+    {"id":112,"number":112,"arabicName":"الإخلاص","transliteration":"Al-Ikhlas","englishName":"The Sincerity","revelationType":"Meccan","verseCount":4,"audio":"assets/audio/112-al-ikhlas.mp3","verses":[]},
+    {"id":113,"number":113,"arabicName":"الفلق","transliteration":"Al-Falaq","englishName":"The Daybreak","revelationType":"Meccan","verseCount":5,"audio":"assets/audio/113-al-falaq.mp3","verses":[]},
+    {"id":114,"number":114,"arabicName":"الناس","transliteration":"An-Nas","englishName":"Mankind","revelationType":"Meccan","verseCount":6,"audio":"assets/audio/114-an-nas.mp3","verses":[]}
+  ]
+}

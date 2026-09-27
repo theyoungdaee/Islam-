@@ -1,0 +1,2 @@
+Put your own authorized MP3 recordings in this folder.
+Do not rename the placeholder as an audio file. See AUDIO_README.md.

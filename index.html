@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1830">
+  <meta name="description" content="Quran Listen — a privacy-focused Quran reading and listening PWA.">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./assets/icons/icon.svg">
+  <link rel="stylesheet" href="./css/style.css?v=3">
+  <title>Quran Listen</title>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">QURAN LISTEN</p>
+      <h1>Assalamu Alaikum</h1>
+    </div>
+    <a class="icon-btn" href="settings.html" aria-label="Settings">⚙</a>
+  </header>
+
+  <main class="page">
+    <section class="hero-card">
+      <div>
+        <span class="badge">VERSION 1</span>
+        <h2>Your Quran, your way.</h2>
+        <p>Read, listen and continue your journey with your locally supplied recitations.</p>
+      </div>
+      <div class="hero-mark">۞</div>
+    </section>
+
+    <section class="section-head"><h2>Continue Reading</h2></section>
+    <article class="card continue-card" id="continueReading">
+      <div>
+        <span class="muted">Your last position</span>
+        <h3 id="lastReadTitle">Start with Al-Fatihah</h3>
+        <p id="lastReadMeta">No reading position saved yet.</p>
+      </div>
+      <button class="primary-btn" id="continueBtn">Read</button>
+    </article>
+
+    <section class="section-head"><h2>Continue Listening</h2></section>
+    <article class="card audio-card">
+      <div>
+        <span class="muted">My Recitation</span>
+        <h3 id="homeAudioTitle">Al-Fatihah</h3>
+        <p id="homeAudioProgress">Ready to play</p>
+      </div>
+      <button class="play-btn" id="homePlayBtn" aria-label="Play">▶</button>
+    </article>
+
+    <section class="section-head">
+      <div>
+        <h2>Available Surahs</h2>
+        <p class="muted">10 of 114 Surahs available</p>
+      </div>
+      <a href="quran.html" class="text-link">View all</a>
+    </section>
+
+    <div class="quick-grid">
+      <a class="quick-card" href="quran.html"><span>📖</span><b>Quran</b><small>Read</small></a>
+      <a class="quick-card" href="listen.html"><span>🎧</span><b>Listen</b><small>My recitations</small></a>
+      <a class="quick-card" href="bookmarks.html"><span>🔖</span><b>Bookmarks</b><small>Saved ayahs</small></a>
+      <a class="quick-card" href="favorites.html"><span>♡</span><b>Favorites</b><small>Your picks</small></a>
+    </div>
+
+    <section class="section-head"><h2>Daily Ayah</h2></section>
+    <article class="card ayah-card">
+      <div class="ayah-number">1</div>
+      <p class="arabic">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</p>
+      <p class="translation">All praise is for Allah, Lord of the worlds.</p>
+      <span class="source-note">Al-Fatihah 1:2 • Translation source: placeholder — replace with your chosen licensed translation.</span>
+    </article>
+
+    <p class="notice">More Surahs will be added in future updates.</p>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Main navigation">
+    <a class="active" href="index.html"><span>⌂</span>Home</a>
+    <a href="listen.html"><span>♪</span>Listen</a>
+    <a class="player-nav" href="player.html"><span>▶</span>Player</a>
+    <a href="tools.html"><span>✦</span>Tools</a>
+  </nav>
+  <script src="./js/app.js"></script>
+</body>
+</html>
